@@ -73,7 +73,7 @@ pipeline {
                     set -e
 
                     DEPLOY_ROOT=/opt/cicd-demo/node
-                    RELEASE_DIR="$DEPLOY_ROOT/releases/$BUILD_NUMBER"
+                    RELEASE_DIR="$DEPLOY_ROOT/releaeses/$BUILD_NUMBER"
 
                     echo "Deploying build $BUILD_NUMBER"
                     echo "Release directory: $RELEASE_DIR"
